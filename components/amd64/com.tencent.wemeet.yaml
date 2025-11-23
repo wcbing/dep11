@@ -1,0 +1,53 @@
+---
+Type: desktop-application
+ID: com.tencent.wemeet
+Package: wemeet
+ProjectLicense: LicenseRef-proprietary=https://wemeet.tencent.com/declare.html
+Name:
+  C: Wemeet (Tencent Meeting)
+  zh-CN: 腾讯会议
+Summary:
+  C: An Expert in Conferencing
+  zh-CN: 腾讯会议 会开会
+Description:
+  C: >-
+    <p>Wemeet provides one-stop cloud-based conferencing solutions.
+    The high-definition and smooth audiovisual quality allows you to
+    experience immersive conference collaboration anytime, anywhere.</p>
+  zh-CN: >-
+    <p>基于腾讯20多年音视频通讯经验，腾讯会议提供一站式音视频会议解决方案，
+    让您能随时随地体验高清流畅的会议以及会议协作。</p>
+Developer:
+  name:
+    C: Tencent
+    zh-CN: 腾讯
+Categories:
+  - AudioVideo
+  - Office
+Keywords:
+  C:
+    - Meeting
+    - Tencent Meeting
+    - Tencent
+  zh-CN:
+    - 会议
+    - 腾讯会议
+    - 腾讯
+Url:
+  homepage: https://meeting.tencent.com/
+  help: https://support.qq.com/product/42324
+Launchable:
+  desktop-id:
+    - wemeetapp.desktop
+Icon:
+  remote:
+    - url: https://cdn.meeting.tencent.com/assets/next-website/logo128.png
+  stock: wemeetapp
+  local:
+    - name: /usr/share/icons/hicolor/256x256/mimetypes/wemeetapp.png
+      width: 256
+      height: 256
+Screenshots:
+  - default: true
+    source-image:
+      url: https://cdn.meeting.tencent.com/pro/YjI1MWEwN2YtZjVlMy00OGQ5LTgwYjktZDkwYjk1N2JlZjcy

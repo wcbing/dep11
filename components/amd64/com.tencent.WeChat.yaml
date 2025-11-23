@@ -1,0 +1,63 @@
+---
+Type: desktop-application
+ID: com.tencent.WeChat
+Package: wechat
+ProjectLicense: LicenseRef-proprietary=https://www.wechat.com/en/service_terms.html
+Name:
+  C: WeChat
+  zh-CN: 微信
+Summary:
+  C: Free messaging and calling app
+  zh-CN: 微信，是一个生活方式
+Description:
+  C: >-
+    <p>Connecting a billion people with calls, chats, and more</p>
+  zh-CN: >-
+    <p>连接超过10亿用户，提供聊天和通话等强大功能</p>
+Developer:
+  name:
+    C: Tencent
+    zh-CN: 腾讯
+Categories:
+  - InstantMessaging
+  - Network
+Keywords:
+  C:
+    - Chat
+    - Weixin
+    - Tencent
+  zh-CN:
+    - 聊天
+    - 微信
+    - 腾讯
+Url:
+  homepage: https://linux.weixin.qq.com
+  help: https://help.wechat.com
+Launchable:
+  desktop-id:
+    - wechat.desktop
+Icon:
+  # remote:
+  # - url:
+  stock: wechat
+  local:
+    - name: /usr/share/icons/hicolor/256x256/apps/wechat.png
+      width: 256
+      height: 256
+Screenshots:
+  - default: true
+    source-image:
+      url: https://res.wx.qq.com/t/fed_upload/21d7601d6fbf2af741e38f765f7820b8/1.png
+      caption: text messaging
+  - source-image:
+      url: https://res.wx.qq.com/t/fed_upload/21d7601d6fbf2af741e38f765f7820b8/2.png
+      caption: video calling
+  - source-image:
+      url: https://res.wx.qq.com/t/fed_upload/21d7601d6fbf2af741e38f765f7820b8/3.png
+      caption: Moments
+ContentRating:
+  oars-1.1:
+    social-chat: intense
+    social-info: intense
+    social-audio: intense
+    social-contacts: intense

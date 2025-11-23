@@ -1,0 +1,59 @@
+---
+Type: desktop-application
+ID: com.qq.QQ
+Package: linuxqq
+ProjectLicense: LicenseRef-proprietary=https://rule.tencent.com/rule/preview/46a15f24-e42c-4cb6-a308-2347139b1201
+Name:
+  C: QQ
+Summary:
+  C: Online instant messaging service
+  zh-CN: 一款能让你与你的朋友和家人保持联系的即时通讯工具
+Description:
+  C: >-
+    <p>Tencent QQ is an instant messaging software used by 800 million people.
+    You can not only chat and make friends through QQ on various devices,
+    but also make free video and voice calls, and send and receive important
+    files anytime, anywhere.</p>
+  zh-CN: >-
+    <p>腾讯 QQ，8 亿人在用的即时通讯软件。你不仅可以在各类通讯终端上通过 QQ 聊天交友，
+    还能进行免费的视频、语音通话，或者随时随地收发重要文件。</p>
+Developer:
+  name:
+    C: Tencent
+    zh-CN: 腾讯
+Categories:
+  - InstantMessaging
+  - Network
+Keywords:
+  C:
+    - Chat
+    - Tencent
+  zh-CN:
+    - 聊天
+    - 腾讯
+Url:
+  homepage: https://im.qq.com
+  help: https://kf.qq.com/product/QQ.html
+Launchable:
+  desktop-id:
+    - qq.desktop
+Icon:
+  remote:
+    - url: https://sqimg.qq.com/qq_product_operations/im/mac/5.0/images/share-img.png
+  stock: qq
+  local:
+    - name: /usr/share/icons/hicolor/512x512/apps/qq.png
+      width: 512
+      height: 512
+Screenshots:
+  - default: true
+    source-image:
+      url: https://im.qq.com/pcqq/images/new/big-chat-desk.png
+  - source-image:
+      url: https://im.qq.com/pcqq/images/new/login.png
+ContentRating:
+  oars-1.1:
+    social-chat: intense
+    social-info: intense
+    social-audio: intense
+    social-contacts: intense

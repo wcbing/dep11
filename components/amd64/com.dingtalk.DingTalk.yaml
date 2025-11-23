@@ -1,0 +1,49 @@
+---
+Type: desktop-application
+ID: com.dingtalk.DingTalk
+Package: com.alibabainc.dingtalk
+ProjectLicense: LicenseRef-proprietary=https://terms.alicdn.com/legal-agreement/terms/suit_bu1_dingtalk/suit_bu1_dingtalk202010200940_84493.html
+Name:
+  C: DingTalk
+  zh-CN: 钉钉
+Summary:
+  C: An intelligent working platform
+  zh-CN: 钉钉，AI时代工作方式
+Description:
+  C: >-
+    <p>DingTalk is an intelligent working platform created by Alibaba Group
+    to support tens of millions of enterprises to achieve higher working
+    efficiency with the new digitalized technique.</p>
+  zh-CN: >-
+    <p>钉钉（Ding Talk）是阿里巴巴集团打造的企业级智能移动办公平台，引领未来新一代工作方式，
+    将陪伴每一个企业成长，是数字经济时代的企业组织协同办公和应用开发平台，是新生产力工具。</p>
+Developer:
+  id: com.dingtalk
+  name:
+    C: DingTalk Alibaba Inc
+    zh-CN: 阿里 钉钉
+Categories:
+  - Office
+Keywords:
+  C:
+    - Alibaba
+  zh-CN:
+    - 阿里巴巴
+Url:
+  homepage: https://www.dingtalk.com/
+  help: https://www.dingtalk.com/qidian/helpCenter/pcPage
+Launchable:
+  desktop-id:
+    - com.alibabainc.dingtalk.desktop
+Icon:
+  remote:
+    - url: https://dl.flathub.org/media/com/dingtalk/DingTalk/8c6546a6707e25261f6d1cdcefd7631c/icons/128x128/com.dingtalk.DingTalk.png
+  stock: com.alibabainc.dingtalk
+  local:
+    - name: /opt/apps/com.alibabainc.dingtalk/files/logo.ico
+      width: 256
+      height: 256
+Screenshots:
+  - default: true
+    source-image:
+      url: https://img.alicdn.com/imgextra/i4/O1CN01IRJD3N1xkoEcLjbcE_!!6000000006482-2-tps-1725-1263.png
