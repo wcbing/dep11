@@ -7,20 +7,20 @@ Name:
   C: QQ
 Summary:
   C: Online instant messaging service
-  zh-CN: 一款能让你与你的朋友和家人保持联系的即时通讯工具
+  zh: 一款能让你与你的朋友和家人保持联系的即时通讯工具
 Description:
   C: >-
     <p>Tencent QQ is an instant messaging software used by 800 million people.
     You can not only chat and make friends through QQ on various devices,
     but also make free video and voice calls, and send and receive important
     files anytime, anywhere.</p>
-  zh-CN: >-
+  zh: >-
     <p>腾讯 QQ，8 亿人在用的即时通讯软件。你不仅可以在各类通讯终端上通过 QQ 聊天交友，
     还能进行免费的视频、语音通话，或者随时随地收发重要文件。</p>
 Developer:
   name:
     C: Tencent
-    zh-CN: 腾讯
+    zh: 腾讯
 Categories:
   - InstantMessaging
   - Network
@@ -28,7 +28,7 @@ Keywords:
   C:
     - Chat
     - Tencent
-  zh-CN:
+  zh:
     - 聊天
     - 腾讯
 Url:

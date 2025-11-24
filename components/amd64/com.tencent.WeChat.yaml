@@ -5,19 +5,19 @@ Package: wechat
 ProjectLicense: LicenseRef-proprietary=https://www.wechat.com/en/service_terms.html
 Name:
   C: WeChat
-  zh-CN: 微信
+  zh: 微信
 Summary:
   C: Free messaging and calling app
-  zh-CN: 微信，是一个生活方式
+  zh: 微信，是一个生活方式
 Description:
   C: >-
     <p>Connecting a billion people with calls, chats, and more</p>
-  zh-CN: >-
+  zh: >-
     <p>连接超过10亿用户，提供聊天和通话等强大功能</p>
 Developer:
   name:
     C: Tencent
-    zh-CN: 腾讯
+    zh: 腾讯
 Categories:
   - InstantMessaging
   - Network
@@ -26,7 +26,7 @@ Keywords:
     - Chat
     - Weixin
     - Tencent
-  zh-CN:
+  zh:
     - 聊天
     - 微信
     - 腾讯

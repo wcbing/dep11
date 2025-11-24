@@ -39,5 +39,14 @@ Debian 使用的 AppStream 格式，也就是本仓库使用的格式。
 ### Screeshots
 不强制要求 16:9，截图最好来自官网。
 
-### 本地化
-GNOME Software 上本地化无效，Discover 上正常。正在考虑国内软件的 C 字段中直接写中文。
+### 本地化（中文）
+
+AppStream 的 YAML 规范中没找到详细解释，XML 规范中使用 XML 原生语法 `xml:lang=`，那 YAML 中应该也是 BCP 47。测试得出这几种合法的“中文”表示支持如下表，正在考虑国内软件直接使用的 zh 字段。
+
+|                | zh | zh-CN | zh-Hans |
+|             -: |:--:|:--:|:--:|
+| GNOME Software | ✔️ | ❌ | ❌ |
+|   KDE Discover | ✔️ | ✔️ | ❌ |
+|    Flathub Web | ✔️ | ✔️ | ✔️ |
+
+> Flathub 中有 `zh-cn`、`zh_CN` 等不合法表示，在几个平台都都无法展现。

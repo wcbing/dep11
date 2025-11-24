@@ -5,27 +5,27 @@ Package: baidunetdisk
 ProjectLicense: LicenseRef-proprietary=http://pan.baidu.com/disk/duty/
 Name:
   C: BaiduNetDisk
-  zh-CN: 百度网盘
+  zh: 百度网盘
 Summary:
   C: Baidu Netdisk desktop client
-  zh-CN: 为你电脑/手机中的文件提供云备份、预览、分享等服务，帮你更便捷安全地管理数据。
+  zh: 为你电脑/手机中的文件提供云备份、预览、分享等服务，帮你更便捷安全地管理数据。
 Description:
   C: >-
     <p>Baidu Netdisk desktop client</p>
-  zh-CN: >-
+  zh: >-
     <p>百度网盘是一款国民级产品，已连续9年为超过7亿用户提供稳定、安全的个人云存储服务，
     已实现电脑、手机、电视等多种终端场景的覆盖和互联，并支持多类型文件的备份、分享、查看和处理</p>
 Developer:
   name:
     C: Baidu, Inc
-    zh-CN: 百度
+    zh: 百度
 Categories:
   - Network
 Keywords:
   C:
     - NetDisk
     - Baidu
-  zh-CN:
+  zh:
     - 网盘
     - 百度
 Url:
