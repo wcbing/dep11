@@ -41,12 +41,15 @@ Debian 使用的 AppStream 格式，也就是本仓库使用的格式。
 
 ### 本地化（中文）
 
-AppStream 的 YAML 规范中没找到详细解释，XML 规范中使用 XML 原生语法 `xml:lang=`，那 YAML 中应该也是 BCP 47。测试得出这几种合法的“中文”表示支持如下表，正在考虑国内软件直接使用的 zh 字段。
+AppStream 的 YAML 规范中没找到详细解释，XML 规范中使用 XML 原生语法 `xml:lang=`，那应该是 BCP 47。测试得出这几种常见的“中文”表示支持如下表，正在考虑国内软件直接使用的 zh 字段。
 
-|                | zh | zh-CN | zh-Hans |
-|             -: |:--:|:--:|:--:|
-| GNOME Software | ✔️ | ❌ | ❌ |
-|   KDE Discover | ✔️ | ✔️ | ❌ |
-|    Flathub Web | ✔️ | ✔️ | ✔️ |
+|                | `zh` | `zh-CN` | `zh_CN` | `zh-Hans` |
+| -------------: | :--: | :-----: | :-----: | :-------: |
+| 样例（Example） | [net.eudic.dict](https://github.com/flathub/net.eudic.dict/blob/master/net.eudic.dict.metainfo.xml#L6) | [com.qq.QQmusic](https://github.com/flathub/com.qq.QQmusic/blob/master/com.qq.QQmusic.metainfo.xml#L10) | [com.github.gmg137.netease-cloud-music-gtk](https://github.com/flathub/com.github.gmg137.netease-cloud-music-gtk/blob/master/com.github.gmg137.netease-cloud-music-gtk.metainfo.xml#L36) | [com.tencent.wemeet](https://github.com/flathub/com.tencent.wemeet/blob/master/com.tencent.wemeet.metainfo.xml#L6) |
+| GNOME Software | ✔️ | ❌ | ✔️ (Only XML) | ❌ |
+|   KDE Discover | ✔️ | ✔️ | ❌ | ❌ |
+|    Flathub Web | ✔️ | ✔️ | ✔️ | ✔️ |
 
-> Flathub 中有 `zh-cn`、`zh_CN` 等不合法表示，在几个平台都都无法展现。
+> `zh_CN` 不是符合 BCP 47 规范的语言标签。
+
+Flathub 中还有两个 `zh-cn` 这样不合法表示（“QQ音乐”我接手改了，就剩“网易云音乐”了），在几个平台都都无法展现。此外 Debian 仓库中还有一些更详细的 `zh-Hans-CN`，几个平台也是不支持。
