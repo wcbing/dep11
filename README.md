@@ -41,7 +41,7 @@ Debian 使用的 AppStream 格式，也就是本仓库使用的格式。
 
 ### 本地化（中文）
 
-AppStream 的 YAML 规范中没找到详细解释，XML 规范中使用 XML 原生语法 `xml:lang=`，那应该是 BCP 47。测试得出这几种常见的“中文”表示支持如下表，正在考虑国内软件直接使用的 zh 字段。
+AppStream 的 YAML 规范中没找到详细解释，XML 规范中使用 XML 原生语法 `xml:lang=`，那应该是 BCP 47。在 System Locale: `LANG=zh_CN.UTF-8` 情况下测试得出这几种常见的“中文”表示支持如下表，正在考虑国内软件直接使用的 zh 字段。
 
 |                | `zh` | `zh-CN` | `zh_CN` | `zh-Hans` |
 | -------------: | :--: | :-----: | :-----: | :-------: |
@@ -49,7 +49,12 @@ AppStream 的 YAML 规范中没找到详细解释，XML 规范中使用 XML 原�
 | GNOME Software | ✔️ | ❌ | ✔️ (Only XML) | ❌ |
 |   KDE Discover | ✔️ | ✔️ | ❌ | ❌ |
 |    Flathub Web | ✔️ | ✔️ | ✔️ | ✔️ |
+|    Flatpak CLI | ✔️ | ✔️ | ❌ | ❌ |
 
 > `zh_CN` 不是符合 BCP 47 规范的语言标签。
+
+> ✔️ 意味着支持该语言标签，可以显示中文；❌ 意味着不支持该语言标签，会回落显示 `C` 字段中的内容。
+
+可以看出 GNOME Software 支持有些异常，已经提了 [issue](https://gitlab.gnome.org/GNOME/gnome-software/-/issues/2920)
 
 Flathub 中还有两个 `zh-cn` 这样不合法表示（“QQ音乐”我接手改了，就剩“网易云音乐”了），在几个平台都都无法展现。此外 Debian 仓库中还有一些更详细的 `zh-Hans-CN`，几个平台也是不支持。
