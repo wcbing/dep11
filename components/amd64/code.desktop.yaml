@@ -1,0 +1,39 @@
+---
+Type: desktop-application
+ID: code.desktop
+Package: code
+ProjectLicense: LicenseRef-proprietary=https://code.visualstudio.com/license
+Name:
+  C: Visual Studio Code
+Summary:
+  C: Visual Studio Code. Code editing. Redefined.
+  zh: 编辑进化
+Description:
+  C: >-
+    <p>Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle.
+    See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.</p>
+  zh: >-
+    <p>Visual Studio Code是一种新的工具选择，它将代码编辑器的简单性与开发人员对核心编辑-构建-调试周期的需求相结合。
+    有关安装说明和常见问题，请参阅https://code.visualstudio.com/docs/setup/linux。</p>
+Developer:
+  name:
+    C: Microsoft Corporation
+Categories:
+  - Development
+Url:
+  homepage: https://code.visualstudio.com
+Icon:
+  remote:
+    - url: https://code.visualstudio.com/assets/apple-touch-icon.png
+  stock: code
+  local:
+    - name: /usr/share/code/resources/app/resources/linux/code.png
+      width: 512
+      height: 512
+Screenshots:
+- default: true
+  caption:
+    C: Editing TypeScript
+  thumbnails: []
+  source-image:
+    url: https://code.visualstudio.com/assets/docs/getstarted/userinterface/tabs-hero.png
