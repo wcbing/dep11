@@ -1,0 +1,52 @@
+---
+Type: desktop-application
+ID: bytedance-feishu.desktop
+Package: bytedance-feishu-stable
+ProjectLicense: LicenseRef-proprietary=https://www.feishu.cn/terms
+Name:
+  C: Feishu
+  zh: 飞书
+Summary:
+  C: 飞书(Feishu), a collaboration platform
+  zh: 企业协作与管理平台
+Description:
+  C: >-
+    <p>Feishu is an all-in-one platform that integrates instant communication,
+    calendar, video meeting, collaborative documents, workplace, and various features.
+    Feishu aims to make your work more enjoyable while achieving better organizational results.</p>
+  zh: >-
+    <p>飞书整合即时消息、日历、音视频会议、云文档、工作台等功能于一体，成就团队和个人，更高效、更愉悦。</p>
+Developer:
+  name:
+    C: Feishu Linux Team
+    zh: Feishu Linux 团队
+Categories:
+  - Office
+Url:
+  homepage: https://feishu.cn/
+Launchable:
+  desktop-id:
+    - bytedance-feishu.desktop
+Icon:
+  remote:
+    - url: https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/1ec7129d900e442d8501d810efdaa369~tplv-jbbdkfciu3-image:0:0.image
+  stock: bytedance-feishu
+  local:
+    - name: /usr/share/icons/hicolor/256x256/apps/bytedance-feishu.png
+      width: 256
+      height: 256
+Screenshots:
+  - default: true
+    caption:
+      C: Feishu
+    thumbnails: []
+    source-image:
+      url: https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/e21bd574e34e43c6929936bb660e05bd~tplv-jbbdkfciu3-png:0:0.png
+ContentRating:
+  oars-1.1:
+    social-chat: intense
+    social-info: mild
+    social-audio: intense
+    social-location: intense
+    social-contacts: intense
+    money-purchasing: intense
