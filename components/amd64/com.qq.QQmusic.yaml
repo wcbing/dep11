@@ -36,8 +36,8 @@ Launchable:
   desktop-id:
     - qqmusic.desktop
 Icon:
-  # remote:
-  # - url:
+  remote:
+    - url: https://pp.myapp.com/ma_icon/0/icon_6259_1764214052/256
   stock: qqmusic
   local:
     - name: /usr/share/icons/hicolor/256x256/apps/qqmusic.png

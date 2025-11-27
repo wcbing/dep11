@@ -35,8 +35,8 @@ Launchable:
   desktop-id:
     - baidunetdisk.desktop
 Icon:
-  # remote:
-  # - url:
+  remote:
+    - url: https://mms0.baidu.com/it/u=93691458,3147322931&fm=253&app=138&f=PNG
   stock: baidunetdisk
   local:
     - name: /usr/share/icons/hicolor/scalable/apps/baidunetdisk.svg

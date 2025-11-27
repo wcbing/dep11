@@ -37,8 +37,8 @@ Launchable:
   desktop-id:
     - wechat.desktop
 Icon:
-  # remote:
-  # - url:
+  remote:
+    - url: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
   stock: wechat
   local:
     - name: /usr/share/icons/hicolor/256x256/apps/wechat.png

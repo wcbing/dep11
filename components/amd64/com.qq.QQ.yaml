@@ -39,7 +39,7 @@ Launchable:
     - qq.desktop
 Icon:
   remote:
-    - url: https://sqimg.qq.com/qq_product_operations/im/mac/5.0/images/share-img.png
+    - url: https://www.tencent.com/data/logo-pic/1.2.png
   stock: qq
   local:
     - name: /usr/share/icons/hicolor/512x512/apps/qq.png
