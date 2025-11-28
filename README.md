@@ -31,6 +31,8 @@ Debian 使用的 AppStream 格式，也就是本仓库使用的格式。
 ### ID
 因为现在商店内国产软件的评论、评分等大多都是 Flathub 用户提供的，为保持这些信息兼容，建议 ID 与 Flathub 保持一致。
 
+但是请注意，有些应用自带 metainfo 或 appdata（尤其是 Chromium 衍生或基于 Electron 的应用），所以其可能已经有一些评论。如果 Flathub 应用与其官方使用的 ID 不同，请使用其官方的 ID，毕竟我们本身就是“分发”官网原生包文件（的链接）。
+
 不过 Flathub 不像 AppStream 规范推荐的那样使用全小写 ID，这有点可惜。虽然改为全小写仍可正常显示评论、评分等，但为了应用商店中能与 Flathub 来源合并展示，将保持这种含大写的 ID。
 
 ### Icon
