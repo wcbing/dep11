@@ -1,6 +1,6 @@
 ---
 Type: desktop-application
-ID: com.tencent.WeChat
+ID: com.tencent.wechat
 Package: wechat
 ProjectLicense: LicenseRef-proprietary=https://www.wechat.com/en/service_terms.html
 Name:
